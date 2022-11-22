@@ -28,7 +28,8 @@ public class MainApp {
       userService.add(user1);
       userService.add(user2);
       userService.add(user3);
-      userService.getUserByCar(car3);
+
+      System.out.println(userService.getUserByCar(car3));
 
 
 
